@@ -1,0 +1,224 @@
+/* jenert style */
+@import url(rest.css);
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/vazir.woff2') format('woff2'),
+     url('../fonts/vazir.woff') format('woff'),
+     url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+body, input, button {
+    font-family: 'vazirNormal';
+}
+body{
+    direction: rtl;
+}
+*{
+    box-sizing: border-box;
+}
+/* header */
+#header{
+    width: 100%;
+    height: 735px;
+    background: linear-gradient(195deg, rgba(13, 71, 161, 1) 0%, rgba(30, 136, 229, 1) 100%);
+}
+ .cantiner{
+    width: 1100px;
+    margin: auto;
+}
+.cantiner .loge img{
+    width: 60px;
+    margin-top: 10px;
+    float: right;
+}
+#nav{
+    float: left;
+    padding-top: 20px;
+}
+#nav ul li {
+    display: inline-block;    
+    padding: 10px 15px;
+}
+#nav ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    border-bottom: 4px solid #fff;
+    animation: 0.25s;
+}
+.clearfix {
+    clear: both;
+}
+ .cantiner #subscribe{
+     text-align: center;
+     margin-top: 50px;
+     color: white;
+     line-height: 50px;
+ }
+  #subscribe h1{
+     font-size: 60px;
+     font-weight: bold;
+ }
+   #subscribe p{
+     font-size: 25px;
+     padding: 40px 0;
+ }
+  #subscribe .email{
+      padding: 15px;
+      width: 400px;
+      border-radius: 5px;
+      border: none;
+  }
+  #subscribe .submit-btn{
+      color: white;
+      padding: 11px 35px;
+      background-color: #212326;
+      border: none;
+      border-radius: 5px;
+      margin-right: 15px;
+      font-size: 25px;
+  }
+  #subscribe .submit-btn:hover{
+    cursor: pointer;
+      box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  }
+  #subscribe .spem{
+      padding-top: 40px;
+  }
+  #whyus{
+      text-align: center;
+      margin-top: 300px;
+  }
+  #whyus .item{
+      width: 30%;
+      text-align: right;
+      padding: 20px;
+      display: inline-block;
+      box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
+      margin: 15px;
+    border-radius: 20px;
+  }
+  #whyus .item svg{
+      font-size: 50px;
+      color: rgb(13, 71, 161);
+  }
+    .item .farzin{
+      font-size: 18px;
+    line-height: 25px;
+  }
+  #whyus .item .test{
+      font-size: 30px;
+      font-weight: bold;
+      padding: 15px 0px;
+  }
+  #customers{
+      width: 100%;
+      height: 200px;
+      background-image: url('images/ny.jpeg');
+      background-size: cover;
+      margin-top: 40px;
+      background-attachment: fixed;
+  }
+  #customers h2{
+      text-align: center;
+      color: white;
+    padding: 30px 0px;
+    font-size:60px;
+    font-weight: bold;
+  }
+  #customers h2::before{
+      content: '..:';
+      padding-left: 20px;
+  }
+  #customers h2::after{
+      content: ':..';
+      padding-right: 20px;
+  }
+   #customers ul li {
+    display: inline-block;    
+    padding: 10px 15px;
+      margin-right: 80px;
+  }
+  #customers  ul li img{
+      width: 150px;
+  }
+  #customers  ul li img:hover{
+      opacity: 0.5;
+      cursor: pointer;
+  }
+  /* posts */
+  #posts .tatel{
+      text-align: center;
+      padding-top: 40px;
+      font-size: 30px;
+      font-weight: bold;
+  }
+ #posts .post-item{
+      width: 30%;
+      height: 300px;
+      display: inline-block;
+      margin: 20px 15px;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
+      position: relative;   
+      border-radius: 5px;
+  }
+ .post-item .post-imges img{
+     width: 100%;
+     height: 200px;
+     border-radius: 5px 5px 0px 0px;
+ }
+ .post-item .post-titi{
+     padding: 10px 5px;
+     font-size: 25px;
+     font-weight: bold;
+ }
+ .post-item .post-titi  a{
+     text-decoration: none;
+     color: #000;
+ }
+ .post-item .post-dat .post-date{
+     position: absolute;
+     right: 5px;
+     bottom: 5px;
+ }
+ .post-item .post-dat .read-more a{
+     text-decoration: none;
+     color: #000;
+ }
+ .post-item .post-dat .read-more{
+     position: absolute;
+     left: 10;
+     bottom: 5px;
+ }
+ /* footer */
+ #footer{
+     background-color: #e0e0e0;
+     width: 100%;
+     margin-top: 20px;
+ }
+ #footer  ul li{
+     display: inline-block;
+     font-size: 40px;
+     margin-right: 20px;
+ }
+ #footer .socials a{
+     color: #3d3d3d;;
+ }
+ #footer .socials{
+     text-align: center;
+     padding: 20px 0px;
+ }
+ #footer .copyright{
+     text-align: center;
+     font-size: 30px;
+     background-color: #424242;
+     color: white;
+     width: 100%;
+     padding: 10px;
+ }
